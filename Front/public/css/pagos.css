@@ -1,0 +1,112 @@
+.content_3_pagos {
+  width: 70%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px 0 0 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.content_3_pagos .subContent {
+  height: 50%;
+  padding: 1em 0;
+  width: 97%;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.subContent:first-child{
+    padding: 1em 0 0;
+}
+.subContent:last-child{
+    padding: 0 0 1em;
+}
+.subContent .subtit,
+.subContent .txt {
+  width: 100%;
+}
+.subContent .txtarea {
+  width: 80%;
+  height: 65%;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.subContent .btns_pagos {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 0 0 .6em;
+}
+.btns_pagos button {
+  width: 100%;
+  height: 30%;
+  font-size: 1em;
+  border-radius: 8px;
+  background: rgba(110.94, 202.94, 67.65, 1);
+  color: #fff;
+  border: none;
+}
+.btns_pagos button:hover {
+    background: rgb(74, 184, 23);
+  }
+/* 80% */
+/* .content_2_crono .image {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .image p{
+      font-size: 1.8em;
+  }
+  
+  .image img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    border: 8px rgb(224, 224, 224) solid;
+    box-shadow: -1px 4px 6px rgba(0, 0, 0, 0.6);
+    margin-bottom: 1.5em;
+  }
+  
+  .content_2_crono .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    padding: 5% 0;
+    width: 60%;
+  }
+  .inputs div{
+    width: 100%;
+  }
+  
+  .inputs div input[type="text"] {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-top: .2em;
+    border-radius: 8px;
+  }
+  
+  .inputs button {
+    width: 45%;
+    height: 12%;
+    font-size: 1em;
+    border-radius: 8px;
+    margin-bottom: -1.1em;
+    background: rgba(110.94, 202.94, 67.65, 1);
+    color: #fff;
+    border: none;
+  }
+  .inputs button:hover {
+    background: rgb(74, 184, 23);
+  } */

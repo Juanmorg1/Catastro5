@@ -1,0 +1,136 @@
+header.index_home {
+  width: 100%;
+  height: 12.5%;
+  background: rgba(0, 0, 0, 0.4);
+  margin-top: 1em;
+  padding: 1.5em 3.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.index_home nav {
+  display: flex;
+  align-items: center;
+}
+nav.navbar * {
+  margin-left: 1.5em;
+  color: white;
+
+}
+
+div.home_container {
+  width: 100%;
+  height: 65%;
+  padding: 0 3.5rem;
+}
+.home_container div.home_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+div.icons {
+  background: rgba(255, 255, 255, 0.8);
+  width: 68%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.icons div.icon_cont {
+  width: 30%;
+  text-align: center;
+}
+
+.icon_cont img {
+  width: 90%;
+  height: auto;
+  border-radius: 50%;
+  border: 8px rgb(224, 224, 224) solid;
+  box-shadow: -1px 4px 6px rgba(0, 0, 0, 0.6);
+}
+.icon_cont p {
+  color: black;
+  margin-top: 0.5em;
+}
+
+.icons div.icon_contadm {
+  width: 30%;
+  text-align: center;
+}
+
+.icon_contadm img {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  border: 8px rgb(224, 224, 224) solid;
+  box-shadow: -1px 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+
+.icon_contadm p {
+  color: black;
+  margin-top: 0.5em;
+  font: 1.5em Quicksand;
+  text-align: center;
+}
+
+div.offer1 {
+  background: rgba(255, 255, 255, 0.8);
+  width: 30%;
+  height: 100%;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  font-weight: bold;
+}
+.offer1>*{
+    padding: 2.5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.offer1>div span{
+  font-size: 7.5vw;
+  font-weight: 700;
+}
+
+div.offer {
+  background: rgba(255, 255, 255, 0.8);
+  width: 30%;
+  height: 100%;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.offer>*{
+    padding: .2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.offer>div span{
+  font-size: 7.5vw;
+  font-weight: 700;
+}
+div.offer_cont_1 {
+  font-size: 1.5em;
+  width: 50%;
+  height: 42.5%;
+}
+div.offer_cont_2 {
+  font-size: 1.7em;
+  width: 50%;
+  height: 42.5%;
+}
+div.offer_cont_3 {
+  font-size: 1.6em;
+  width: 100%;
+  height: 15%;
+}

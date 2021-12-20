@@ -1,0 +1,149 @@
+.content_4_pagos {
+  width: 70%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px 0 0 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.content_4_pagos .subContent_1 {
+  width: 100%;
+  height: 60%;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.grilla_UE {
+  width: 100%;
+  height: 85%;
+  display: grid;
+  grid-template-areas:
+    "codpred cedprop nomprop nomprop valpag"
+    "dirpred dirpred areat areac pay"
+    "null null null btn_1 btn_2";
+  gap: 1.25%;
+  grid-template-columns: 19% 19% 19% 19% 19%;
+}
+.grilla_UE > * {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.grilla_UE * input[type="text"]{
+  padding: .5rem;
+  font-size: 1em;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
+}
+
+.codPred {
+  grid-area: codpred;
+}
+.cedProp {
+  grid-area: cedprop;
+}
+.NomProp {
+  grid-area: nomprop;
+}
+.ValPag {
+  grid-area: valpag;
+}
+.dirPred {
+  grid-area: dirpred;
+}
+.areaT {
+  grid-area: areat;
+}
+.areaC {
+  grid-area: areac;
+}
+.pagoDesc {
+  grid-area: pay;
+}
+.null {
+  grid-area: null;
+}
+.btn_1 {
+  grid-area: btn_1;
+}
+.btn_2 {
+  grid-area: btn_2;
+}
+
+.grilla_UE div button{
+  width: 100%;
+  height: 90%;
+  font-size: 1em;
+  border-radius: 8px;
+  background:rgba(110.94,202.94,67.65,1);
+  color: #fff;
+  border: none;
+}
+.grilla_UE div button:hover{
+  background:rgb(74, 184, 23);
+}
+
+
+.content_4_pagos .subContent_2 {
+  width: 100%;
+  height: 40%;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.check{
+  width: 100%;
+}
+.check input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: .5rem;
+}
+
+.subContent_a{
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.xxx{
+  height: 55%;
+ display: flex;
+ justify-content: space-between;
+}
+.xxx div{
+  width: 19.5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.xxx * input[type="text"]{
+  padding: .5rem;
+  font-size: 1em;
+  width: 100%;
+  height: 60%;
+  border-radius: 8px;
+}
+
+.xxx div button{
+  width: 100%;
+  height: 58%;
+  font-size: 1em;
+  border-radius: 8px;
+  margin-bottom: -1.1em;
+  background:rgba(110.94,202.94,67.65,1);
+  color: #fff;
+  border: none;
+}
+
+.btns_pagos button:hover {
+  background: rgb(74, 184, 23);
+}

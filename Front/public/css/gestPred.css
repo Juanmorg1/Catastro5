@@ -1,0 +1,143 @@
+.active {
+  font-weight: 600;
+}
+/* 98% Total */
+.content {
+  width: 100%;
+  height: 77.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_1 {
+  width: 28%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 0 8px 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_1 dt {
+  margin: 1em 0;
+}
+
+.content_1 dl dd::before {
+  content: ">>";
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.content_2 {
+  width: 70%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px 0 0 8px;
+  display: flex;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++ */
+.grilla {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid-template-areas:
+    "cod_Pred cod_Pred nom_Prop nom_Prop"
+    "ced_Prop ced_Prop area_T area_C"
+    "barrio_Pred barrio_Pred dir_Pred dir_Pred"
+    "create_btn search_btn update_btn delete_btn"
+    "info_Pred info_Pred info_Pred info_Pred";
+    gap: 0.001% 1.25%;
+    padding: 2.5%;
+    grid-template-columns: 22,5% 22,5% 22,5% 22,5%;
+    grid-template-rows: 22% 22% 22% 22%;
+}
+
+.grilla >* {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.btns{
+  justify-content: center;
+}
+
+.grilla * input[type="text"]{
+  padding: .5rem;
+  font-size: 1em;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
+}
+.Cod_Pred {
+  grid-area: cod_Pred;
+}
+.Nom_Prop {
+  grid-area: nom_Prop;
+}
+.Ced_Prop {
+  grid-area: ced_Prop;
+}
+.Area_T {
+  grid-area: area_T;
+}
+.Area_C {
+  grid-area: area_C;
+}
+.Barrio_Pred {
+  grid-area: barrio_Pred;
+}
+.Dir_Pred {
+  grid-area: dir_Pred;
+}
+.Info_Pred {
+  grid-area: info_Pred;
+}
+.Info_Pred .info{
+  width: 100%;
+  height: 70%;
+  background: silver;
+  border-radius: 8px;
+}
+.Create_btn {
+  grid-area: create_btn;
+}
+.Update_btn {
+  grid-area: update_btn;
+}
+.Search_btn {
+  grid-area: search_btn;
+}
+.Delete_btn{
+  grid-area: delete_btn;
+}
+
+.grilla div button{
+  width: 100%;
+  height: 50%;
+  font-size: 1em;
+  border-radius: 8px;
+  margin-bottom: -1.1em;
+  background:rgba(110.94,202.94,67.65,1);
+  color: #fff;
+  border: none;
+}
+.grilla div button:hover{
+  background:rgb(74, 184, 23);
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++ */
+.foot_2 {
+  height: 3%;
+  background-color: #313131;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.foot_2 hr {
+  width: 100%;
+  color: #fff;
+}

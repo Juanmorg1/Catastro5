@@ -1,0 +1,96 @@
+.grilla__xx {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid-template-areas:
+    "nom_X nom_X email_X email_X sea_X"
+    "dep_X dep_X con_X con_X li_X"
+    "btns_X btns_X btns_X btns_X btns_X"
+    "txta_X txta_X txta_X txta_X txta_X";
+  gap: 2% 1.25%;
+  padding: 2.25%;
+  grid-template-columns: 19% 19% 19% 19% 19%;
+  grid-template-rows: 20% 20% 20% 35% 5%;
+}
+.grilla__xx > * {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+.nom_xx {
+  grid-area: nom_X;
+}
+.email_xx {
+  grid-area: email_X;
+}
+.id_xx {
+  grid-area: id_X;
+}
+.contact_xx {
+  grid-area: con_X;
+}
+.dependen_xx {
+  grid-area: dep_X;
+}
+.search_xx {
+  grid-area: sea_X;
+}
+.list_xx {
+  grid-area: li_X;
+}
+.form_btns {
+  grid-area: btns_X;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.form_btns button{
+    width: 32%;
+    height: 55%;
+    font-size: 1em;
+    border-radius: 8px;
+    background:rgba(110.94,202.94,67.65,1);
+    color: #fff;
+    border: none;
+}
+.textarea_xx {
+  grid-area: txta_X;
+}
+
+.textarea_xx .jaja{
+    width: 100%;
+    height: 70%;
+    background: silver;
+    border-radius: 8px;
+}
+
+.grilla__xx * input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1em;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
+}
+
+.grilla__xx * input[type="password"] {
+  padding: 0.5rem;
+  font-size: 1em;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
+}
+
+.grilla__xx .search_xx button, .grilla__xx .list_xx button{
+    width: 100%;
+    height: 50%;
+    font-size: 1em;
+    border-radius: 8px;
+    margin-bottom: -1.1em;
+    background:rgba(110.94,202.94,67.65,1);
+    color: #fff;
+    border: none;
+  }
+  .grilla__xx div button:hover{
+    background:rgb(74, 184, 23);
+  }
